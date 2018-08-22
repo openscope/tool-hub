@@ -1,5 +1,6 @@
 import { MDCTopAppBar } from '@material/top-app-bar/index';
 import { MDCRipple } from '@material/ripple';
+import {MDCTextField} from '@material/textfield';
 
 // Top App Bar
 
@@ -31,3 +32,7 @@ gitRipple.unbounded = true;
 // Other Ripples
 
 const polyRipple = new MDCRipple(document.querySelector('.polyconv__media'))
+
+// Text Fields
+
+const searchTextField = new MDCTextField(document.querySelector('.search-text-field--elem'));

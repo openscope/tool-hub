@@ -33,7 +33,8 @@
         <span class="mdc-top-app-bar__title">openScope Tool Hub</span>
       </section>
       <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end" role="toolbar">
-        <a href="https://github.com/jakcharvat" target="_blank" class="mdc-top-app-bar__action-item git-button" aria-label="My Github" alt="My Github">
+        <a href="https://github.com/jakcharvat" target="_blank" class="mdc-top-app-bar__action-item git-button" aria-label="My Github"
+          alt="My Github">
           <img src="imgs/github--black.png" style="width: 100%;">
         </a>
       </section>
@@ -46,12 +47,25 @@
       <div class="jakcharvat-logo">
         <img src="imgs/jakcharvat-logo--black.svg" alt="jakcharvat">
       </div>
+
+      <div class="mdc-text-field mdc-text-field--outlined search-text-field--elem">
+        <input type="text" id="search-text-field" class="mdc-text-field__input">
+        <label for="search-text-field" class="mdc-floating-label">Search...</label>
+        <div class="mdc-notched-outline">
+          <svg>
+            <path class="mdc-notched-outline__path" />
+          </svg>
+        </div>
+        <div class="mdc-notched-outline__idle"></div>
+      </div>
+
       <ul class="mdc-list">
         <a class="mdc-list-item mdc-typography--overline item1" href="https://github.com/jakcharvat/" onclick="toggleMenu()" traget="_blank">
           <p class="item">My Projects on Github</p>
           <i class="material-icons mdc-list-item__meta">open_in_new</i>
         </a>
-        <a class="mdc-list-item mdc-typography--overline item2" href="https://github.com/jakcharvat/centrelineGenerator/" onclick="toggleMenu()" traget="_blank">
+        <a class="mdc-list-item mdc-typography--overline item2" href="https://github.com/jakcharvat/centrelineGenerator/" onclick="toggleMenu()"
+          traget="_blank">
           <p class="item">This Project on Github</p>
           <i class="material-icons mdc-list-item__meta">open_in_new</i>
         </a>
@@ -59,7 +73,8 @@
           <p class="item">OpenScope</p>
           <i class="material-icons mdc-list-item__meta">open_in_new</i>
         </a>
-        <a class="mdc-list-item mdc-typography--overline item4" href="https://github.com/openscope/openscope/" onclick="toggleMenu()" traget="_blank">
+        <a class="mdc-list-item mdc-typography--overline item4" href="https://github.com/openscope/openscope/" onclick="toggleMenu()"
+          traget="_blank">
           <p class="item">OpenScope on Github</p>
           <i class="material-icons mdc-list-item__meta">open_in_new</i>
         </a>
@@ -137,7 +152,9 @@
               </p>
               <div class="centreline__description float--right margin-top--10 overflow--auto hide">
                 <div class="mdc-divider"></div>
-                <p class="mdc-card__closed-info mdc-typography--overline padding-top--5 text-align--justif overflow--autoy">Centreline Generator is a tool for generating coordinate for extended centrelines, based on the ends of the runway. The tool calculates the exact magnetic bearing between the two points, and uses that to generate a 25NM dashed centreline with dashes 0.5NM each, and a perpendicular dash every 10 dashes to indicate 5NM.</p>
+                <p class="mdc-card__closed-info mdc-typography--overline padding-top--5 text-align--justif overflow--autoy">Centreline Generator is a tool for generating coordinate for extended centrelines, based on the ends of the
+                  runway. The tool calculates the exact magnetic bearing between the two points, and uses that to generate
+                  a 25NM dashed centreline with dashes 0.5NM each, and a perpendicular dash every 10 dashes to indicate 5NM.</p>
               </div>
             </div>
             <div class="mdc-card__actions centreline__actions">
