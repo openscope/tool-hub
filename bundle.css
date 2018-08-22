@@ -2131,7 +2131,8 @@ body.no-scroll {
   background-color: #000000;
   z-index: 1;
   opacity: 0.5;
-  transition: opacity 0.3s ease, z-index 0.3s ease; }
+  transition: opacity 0.3s ease,
+ z-index 0.3s ease; }
 
 .overlay.noShow {
   opacity: 0;
@@ -2252,13 +2253,13 @@ body.no-scroll {
   border: 5px solid #FFCF44; }
 
 .polyconv__media {
-  background-image: url(/imgs/polyConv.png); }
+  background-image: url(\imgs/polyConv.png); }
 
 .centreline__media {
-  background-image: url(/imgs/centreline.png); }
+  background-image: url(\imgs/centreline.png); }
 
 .add__media {
-  background-image: url(/imgs/add.png); }
+  background-image: url(\imgs/add.png); }
 
 .mdc-card__media.hovered {
   left: -2%;
@@ -2340,7 +2341,10 @@ body.no-scroll {
   --mdc-ripple-fg-translate-start: 0;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   will-change: transform, opacity;
-  transition: left .3s ease, width .3s ease, top .3s ease, height .3s ease; }
+  transition: left .3s ease,
+ width .3s ease,
+ top .3s ease,
+ height .3s ease; }
   .polyconv__media.open::before, .polyconv__media.open::after, .centreline__media.open::before, .centreline__media.open::after, .add__media.open::before, .add__media.open::after {
     position: absolute;
     border-radius: 50%;
@@ -2403,7 +2407,10 @@ body.no-scroll {
   height: calc(100% - 10px);
   width: calc(100% + 40px);
   box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12);
-  transition: left .3s ease, width .3s ease, top .3s ease, height .3s ease; }
+  transition: left .3s ease,
+ width .3s ease,
+ top .3s ease,
+ height .3s ease; }
 
 .mdc-card__content.open {
   position: absolute;
