@@ -1,0 +1,33 @@
+.hide { display: none; width: 0px; height: 0px; }
+
+.width--300 {
+    width: 300px;
+}
+
+.float--right {
+    float: right;
+}
+
+.margin-top--10 {
+    margin-top: 10px;
+}
+
+.padding-top--5 {
+    padding-top: 5px;
+}
+
+.text-align--justify {
+    text-align: justify;
+}
+
+.vertical-align--middle {
+    vertical-align: middle;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.overflow--auto {
+    overflow: auto;
+}
